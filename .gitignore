@@ -1,0 +1,22 @@
+# LaTeX cache and intermediate files
+docs/texCache/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+
+# Keep the final report PDF if it's in the docs root (optional, remove if you only want it in cache)
+!docs/report.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv
+venv/
+
+# OS
+.DS_Store
